@@ -20,11 +20,11 @@ pipeline{
 		}	
 		stage('Build'){
 			steps{	
-				bat 'mvn install'
+				bat 'mvn clean install'
 			}
 		post{
 			success{
-				echo 'Successfull'
+				bat ' echo 'Successfull build the jenkins build' '
 			}
 		
 		}	
