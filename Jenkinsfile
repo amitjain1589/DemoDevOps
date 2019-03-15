@@ -1,6 +1,6 @@
 pipeline{
 	agent{
-		Any
+		label 'Windows'
 	}
 	
 	tools{
