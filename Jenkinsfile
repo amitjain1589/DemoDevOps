@@ -1,7 +1,6 @@
-Pipeline{
-
+pipeline{
 	agent{
-		label : Windows
+		label : "Windows"
 	}
 	
 	tools{
