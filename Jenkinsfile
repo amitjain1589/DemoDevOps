@@ -24,7 +24,7 @@ pipeline{
 			}
 		post{
 			success{
-				bat ' echo 'Successfull build the jenkins build' '
+				echo 'Successfull build the jenkins build'
 			}
 		
 		}	
